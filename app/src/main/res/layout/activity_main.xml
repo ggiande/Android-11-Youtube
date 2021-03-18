@@ -6,15 +6,37 @@
     android:layout_height="match_parent"
     android:padding="15dp"
     tools:context=".MainActivity">
-    <TextView
-        android:id="@+id/hello"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="@string/greetings" />
+
     <com.google.android.youtube.player.YouTubePlayerView
         android:id="@+id/player"
         android:layout_width="match_parent"
-        android:layout_below="@+id/hello"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/ic_left_arrow"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_left_video"
+        android:layout_below="@+id/player"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/middle_view"/>
+
+    <View
+        android:id="@+id/middle_view"
+        android:layout_margin="25dp"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/player"
+        />
+
+    <ImageView
+        android:id="@+id/ic_right_arrow"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_right_video"
+        android:layout_below="@+id/player"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/middle_view"/>
 </RelativeLayout>

@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">youtubeAndroid11</string>
     <string name="greetings">Rick Roll?</string>
+    <string name="title_activity_launch_splash">LaunchSplashActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
 </resources>
