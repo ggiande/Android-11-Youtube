@@ -13,13 +13,14 @@ import java.util.ArrayList;
 
 public class MainActivity extends YouTubeBaseActivity {
     // inside of any of your application's code
-    private static final String YOUTUBE_API_KEY = BuildConfig.CONSUMER_KEY;
+    //private static final String YOUTUBE_API_KEY = BuildConfig.CONSUMER_KEY;
+    private static final String YOUTUBE_API_KEY = "APIGOESHERE";
     public static final String TAG = "MainActivity";
 
     int IndexOfVideos = 0;
     private YouTubePlayerView mYouTubePlayerView;
     private YouTubePlayer.OnInitializedListener mOnInitializedListener;
-    private  YouTubePlayer mYouTubePlayer;
+    private YouTubePlayer mYouTubePlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,8 @@ public class MainActivity extends YouTubeBaseActivity {
         videos.add("yPYZpwSpKmA");
         videos.add("dQw4w9WgXcQ");
         videos.add("gQfGgHfQgv0");      // Mashup ;)
+        videos.add("Su6kidaGW_8");
+
         youTubePlayerSetup(videos.get(IndexOfVideos)); // Runs our code at least once
 
         findViewById(R.id.ic_left_arrow).setOnClickListener(new View.OnClickListener(){

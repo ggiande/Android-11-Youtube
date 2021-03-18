@@ -25,7 +25,6 @@ public class LaunchSplashActivity extends AppCompatActivity {
         getWindow().requestFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_launch_splash);
 
-
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
