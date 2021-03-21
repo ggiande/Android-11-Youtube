@@ -2,6 +2,9 @@
 
 This is a project that successfully runs the Youtube Player View using Android 11. This repo was repurposed for workshop events.
 
+## App Demo
+<img src="https://i.imgur.com/SPOyTIt.gif" width="225">
+
 # App Creation
 - Do NOT click on Legacy Libraries
 - Any API (30 by default)
