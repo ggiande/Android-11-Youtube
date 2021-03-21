@@ -13,8 +13,8 @@ import java.util.ArrayList;
 
 public class MainActivity extends YouTubeBaseActivity {
     // inside of any of your application's code
-    //private static final String YOUTUBE_API_KEY = BuildConfig.CONSUMER_KEY;
-    private static final String YOUTUBE_API_KEY = "APIGOESHERE";
+    private static final String YOUTUBE_API_KEY = BuildConfig.CONSUMER_KEY;
+//    private static final String YOUTUBE_API_KEY = "APIGOESHERE"
     public static final String TAG = "MainActivity";
 
     int IndexOfVideos = 0;

@@ -23,6 +23,7 @@ public class LaunchSplashActivity extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         // Hide the Title bar of this activity screen
         getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+
         setContentView(R.layout.activity_launch_splash);
 
         final Handler handler = new Handler();
